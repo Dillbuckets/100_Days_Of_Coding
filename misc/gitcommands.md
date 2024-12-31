@@ -16,6 +16,7 @@ Changes to be committed - things you did `git add` to; you're stating your inten
 
 `git push origin <name_of_branch>`- send that information to GitHub. You don't _need_ to do this, but it's good to make it visible online if you want my help.
 
+`git fetch origin` - run this whenever you want to see if, or expect, I've added anything; it says "hey GitHub, you have anything new for me?"
 
 
 # Your Workflow
