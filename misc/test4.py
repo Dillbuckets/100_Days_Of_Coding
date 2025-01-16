@@ -1,10 +1,11 @@
-def blackjack_check(hand):
-    total = hand_total(hand)
-    if total[0] == 21:
-        return "yes"
+a = 100
+b = 200
+user_guess = input("Which number is larger? Type \"a\" for A or \"b\" for b:  ").lower()
+
+def compare(a, b, user_guess):
+    if a > b:
+        return user_guess == "a"
     else:
-        return "no"
+        return user_guess == "b"
     
-player_hand = [11, 10]
-blackjack = blackjack_check(player_hand)
-print(blackjack)
+print(compare(a, b, user_guess))
