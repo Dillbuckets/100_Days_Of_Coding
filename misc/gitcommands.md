@@ -40,3 +40,8 @@ If you're happy with the progress of that day, everything works, etc., and every
 `git push origin main`
 
 After which point you can and presumably should go back to `develop.`
+
+I now enter Nano. 
+Use "CTRL" + "O"
+Write a name to explain work for the day.
+Then enter "CTRL" + "X" to exit Nano
