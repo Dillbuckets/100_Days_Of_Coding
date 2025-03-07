@@ -12,6 +12,12 @@ Changes to be committed - things you did `git add` to; you're stating your inten
 
 `git add <location of file>` - add a specific thing "to be committed" - all that means is you're stating a file is something to be managed later.
 
+OR
+
+`git add -A` to add ALL FILES you've added, changed, deleted. You can also see via `git status` what that list of things was and it'll tell you what to run if you want to remove something from being staged to commit.
+
+THEN
+
 ` git commit -m <message>` - an informative message as to what was added, changed, whatever. Often but not necessarily right after this you'd do the below git push origin, but you can definitely have multiple commits on one branch before pushing.
 
 `git push origin <name_of_branch>`- send that information to GitHub. You don't _need_ to do this, but it's good to make it visible online if you want my help.
@@ -41,7 +47,9 @@ If you're happy with the progress of that day, everything works, etc., and every
 
 After which point you can and presumably should go back to `develop.`
 
-I now enter Nano. 
-Use "CTRL" + "O"
-Write a name to explain work for the day.
-Then enter "CTRL" + "X" to exit Nano
+# Nano
+First, navigate where you need and just type your next.
+THEN
+CTRL+O is "write out"; this is the equivalent of a ctrl+s "save" in most other programs.
+THEN
+CTRL+X to exit Nano.
